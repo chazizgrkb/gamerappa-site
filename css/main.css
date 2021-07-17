@@ -1,5 +1,12 @@
+#top-banner {
+	 font-family:"Arial";
+     padding: 7px 10px;
+     background-color: #336699;
+     color: white;
+     margin-top: 0px;
+}
 #banner {
-     padding: 10px;
+     padding: 4px 10px;
      background-color: #6699cc;
      color: white;
      margin-top: 0px;
@@ -53,9 +60,9 @@ A:hover .imgLink, A:active .imgLink {
 }
 h1 {
     font-family:"Arial";
-    font-size:60px;
+    font-size:32px;
     color:#000;
-    margin:2px;
+    margin:0px;
     padding:0px;
 }
 h2 {
