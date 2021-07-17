@@ -1,9 +1,207 @@
 #banner {
-    padding: 10px;
-    background-color: #6699cc;
-    color: white;
+     padding: 10px;
+     background-color: #6699cc;
+     color: white;
+     margin-top: 0px;
 }
-
-body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+ body {
+    background-color:#999;
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+img {
+    border:0px;
+    margin:0px;
+    padding:0px;
+}
+a:link {
+    color:#0E3FA1;
+    margin-bottom:1px;
+    margin-left:1px;
+    margin-right:0px;
+    padding:2px;
+    text-decoration:none;
+    font:bold 18px arial;
+}
+a:visited {
+    color:#0E3FA1;
+    margin-bottom:1px;
+    margin-left:1px;
+    margin-right:0px;
+    padding:2px;
+    text-decoration:none;
+    font:bold 18px arial;
+}
+a:hover {
+    color: #55F;
+    text-decoration:underline;
+}
+a:active {
+    color: #55F;
+    text-decoration:underline;
+}
+.imgLink {
+    border:1px;
+    border-color:#000000;
+    border-style: solid;
+}
+A:hover .imgLink, A:active .imgLink {
+    border:1px;
+    border-color: #0000FF;
+    border-style: dashed
+}
+h1 {
+    font-family:"Arial";
+    font-size:60px;
+    color:#000;
+    margin:2px;
+    padding:0px;
+}
+h2 {
+    font-family:"Arial";
+    font-size:30px;
+    color:#000;
+    margin:2px;
+    padding:0px;
+}
+h6 {
+    margin:2px;
+    padding:0px;
+}
+#counter {
+    font:15px arial;
+    color:#888;
+    position:absolute;
+    right:1px;
+    top:1px;
+}
+#TitleA {
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/LogoA.jpg');
+    width:192px;
+    height:100px;
+}
+#TitleB {
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/LogoB.jpg');
+    width:202px;
+}
+#Banner {
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/top.gif');
+}
+#NavBar{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/menuBG.gif');
+    vertical-align:top;
+}
+#Content{
+    Background-Color:#BABABA;
+    vertical-align:top;
+    padding-top:20px;
+}
+#newsTL{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsTL.gif');
+    width:36px;
+    height:40px;
+}
+#newsT{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsT.gif');
+}
+#newsTR{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsTR.gif');
+    width:44px;
+    height:40px;
+}
+#newsL{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsL.gif');
+    width:36px;
+    vertical-align:top;
+}
+#newsC{
+    Background-Color:#FFF;
+     #F8FCD3;
+    width:528px;
+    padding-top:10px;
+}
+#newsR{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsR.gif');
+    width:36px;
+    vertical-align:top;
+}
+#newsBL{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsBL.gif');
+    width:36px;
+    height:42px;
+}
+#newsB{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsB.gif');
+    height:42px;
+}
+#newsBR{
+    Background-Image:url('/web/20070705200001im_/http://blockland.us/newsBR.gif');
+    width:36px;
+    height:42px;
+}
+.leftinset {
+    padding: 0px;
+    border:1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:left;
+    float:left;
+}
+A:hover .leftinset, A:active .leftinset {
+    border:1px;
+    border-color: #0000FF;
+    border-style: dashed
+}
+#Slogan{
+    Position:absolute;
+    border:0px solid #000;
+    width:300px;
+    top:41px;
+    left:14px;
+}
+ a.navlink:link {
+     font-size:22px;
+     background-color:#abcce2;
+     color: #000000;
+     text-decoration:none;
+     height:31px;
+     padding-bottom:30px;
+}
+ a.navlink:visited {
+     font-size:22px;
+     color: #000;
+     text-decoration:none;
+     height:31px;
+     padding-bottom:30px;
+}
+ a.navlink:hover {
+     font-size:22px;
+     background-color:#FFF;
+     color: #000;
+     text-decoration:none;
+     height:31px;
+     padding-bottom:30px;
+}
+ a.navlink:active {
+     font-size:22px;
+     color: #000;
+     text-decoration:none;
+     height:31px;
+     padding-bottom:30px;
+}
+ .navdiv {
+     height:31px;
+     width:117;
+     background-color:#abcce2;
+     margin-left:9px;
+     overflow:hidden;
+}
+ .navspacer {
+     height:5px;
+     width:126;
+     background-color:#000;
+     font-size:0px;
 }
