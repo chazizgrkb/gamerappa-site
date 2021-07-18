@@ -12,10 +12,11 @@
      margin-top: 0px;
 }
  body {
-    background-color:#999;
+    background-color:#FFF;
     border:0px;
     margin:0px;
     padding:0px;
+	font-family: sans-serif;
 }
 img {
     border:0px;
@@ -25,9 +26,6 @@ img {
 a:link {
     color:#0E3FA1;
     margin-bottom:1px;
-    margin-left:1px;
-    margin-right:0px;
-    padding:2px;
     text-decoration:none;
     font:bold 18px arial;
 }
@@ -211,4 +209,50 @@ A:hover .leftinset, A:active .leftinset {
      width:126;
      background-color:#000;
      font-size:0px;
+}
+.newsBar {
+    height: 30px;
+    background-color: #CCCCCC;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1px;
+}
+.newsPost {
+    padding: 8px;
+    background-color: #EEEEEE;
+    margin-bottom: 8px;
+}
+.commentDate {
+    color: #646464;
+    font-family: arial;
+    font-size: 16px;
+    float: right;
+}
+.newsBarPadBox {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.newsBox {
+max-width: 1200px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.newsPreview {
+    float: left;
+    margin-right: 7px;
+}
+.newsPreview img {
+    width: 150px;
+}
+.newsTextBox {
+    height: 150px;
+    display: table-cell;
+    vertical-align: top;
+}
+#MLwrapper {
+	margin-left: 5px;
+}
+html * {
+    max-height: 1000000px;
 }
